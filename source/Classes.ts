@@ -56,7 +56,7 @@ interface ICourse {
     name:string
 }
 
-class Course {
+class Coursee {
     id:string;
     name:string
     constructor(id:string, name:string) {
@@ -69,7 +69,7 @@ var course1: ICourse = {id:'5', name:'Math'};
 console.log(course1);
 console.log(typeof (course1));
 
-var course2 = new Course('6', 'Algorithms');
+var course2 = new Coursee('6', 'Algorithms');
 console.log(course2);
 console.log(typeof (course2));
 
